@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.vh_unit{
+    height: 150vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.808)) ,url("ll.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.box{
+    margin: 20px 30px 10px 0px;
+    padding: 30px 0px 30px 30px;
+    border: 10 px;
+}
+.video{
+    margin:0px 0px 0px 30px;
+    padding: 10px;
+    border-radius: 10px 70px;
+    border: 10px ;
+    border-color:brown;
+    border-style: solid;
+}
+.p{ 
+    color: rgb(209, 26, 26);
+    margin: 0px;
+    padding:30px;
+    font-size: 50%;
+    font-style:italic;
+    font-weight: 100%;
+}
+.menu{
+    display: flex;
+    margin: 0px, 20px;
+    padding: 30px;
+}
+div ul{
+    text-align: center;
+}
+div ul li{
+    margin: 14px 0px;
+}
+div ul:hover li a{
+    opacity:0;
+}
+div ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    background:blanchedalmond;
+    padding: 6px 15px ;
+    border-radius: 20px ;
+    display :inline-block;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+div ul li a:hover{
+    transform: scale(1.5);
+    background: brown;
+    opacity:1;
+}
+.vh_r{
+    background:linear-gradient(#080f1f , #0f2027) ;
+    height: 200%;
+    width: 120%;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+
+}
+.d{
+    background:linear-gradient(#080f1f , #203a43) ;
+width: 110%;
+}
+.t{
+    background:linear-gradient(#080f1f , #203a43) ;
+    width: 110%;
+}
+.f{
+    background:linear-gradient(#080f1f , #203a43) ;
+    width: 120%;
+}
+.b1{
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    border-color: #2c0c02;
+    background-color:brown;
+    color: blanchedalmond;
+}
+.b1:hover{
+color: blanchedalmond;
+background-color:rgb(206,26,26) ;
+transition: 0.5s;
+transform: scale(1.5);
+cursor: pointer;
+}
+/* .b2{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    border-color: #2c0c02;
+    background-color: brown;
+    color: blanchedalmond;
+    float:right;
+    text-decoration: none;
+}
+.b2:hover{
+    color:blanchedalmond;
+background-color:rgb(206,26,26);
+transition: 0.5s;
+transform: scale(1.5);
+cursor: pointer;
+} */
+button a{
+    text-decoration: none;   
+    color: blanchedalmond;
+}
+.navbar{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+/* هنا فى حجات زياده عن اى ناف بار عشان مستخدماها قبل كده بطرق معينه مثل الاختفاء والظهور والالوان  */
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+    background: none;
+    border-radius: 0;
+    
+}
+nav ul:hover li a{
+    opacity: 1;
+}
+nav ul li a:hover{
+    background: none;
+}
+.row{
+    display:flex;
+    height: 70%;
+    align-items:center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100PX;
+}
+P{
+    color:rgb(206,26,26);
+    font-size: 20PX;
+    line-height: 15px;
+
+}
+.card{ 
+    width:200px;
+    height:230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+     
+}
+.card1{
+    background-image: url("card1.jfif");
+
+}
+.card2{
+    background-image: url("card2.jfif");
+}
+.card3{
+    background-image: url("card3.jfif");
+}
+.card4{
+    background-image: url("jaz.jpg");
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+h3{
+    color:rgb(206,26,26);
+}
+h5{
+    color: azure;
+}
+.info{
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 0px 80px 0px 500px;
+}
+.info img{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    /* border-radius: 30%;
+    border: solid 5px;
+    border-color: #2c0c02;
+    padding: 10px;
+    margin: 20px; */
+}
+.info .caption{
+    position: absolute;
+    top:150%;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 3, 3, 0.534);
+    transition: 0.7s;
+    text-align: center;
+}
+.info .caption .contain{
+    color:blanchedalmond;
+    top: 20%;
+    position: relative;
+
+}
+.info .caption .contain h2{
+    margin:10px 0px 0px 0px;
+    text-align: center;
+}
+.info:hover .caption{
+    top: 0px;
+}
+.info:hover img{
+    transform: scale(1.5);
+}
+.hang{
+    margin: 20px 500px 55px 40px;
+    border-radius: 70px 10px;
+    border: solid 10px ;
+    border-color: brown;
+    padding: 10px 10px 10px 20px;
+    position: relative;
+}
+.pp{
+    border-radius: 30%;
+    border: solid 5px;
+    border-color:#2c0c02;
+    background-color: brown;
+    padding: 10px;
+}
+.slide{
+    width: 1050px;
+    height: 400px;
+    margin:auto 50px;
+    padding: 20px;
+    border: 5px solid;
+    border-color: brown;
+
+}
+.map1{
+    /* position: relative;  */
+     display: flex;
+    margin: 10px 20px;
+    padding: 5px;
+    /* border: 5px solid; */
+    /* border-radius: 30%;
+    width: 200px;
+    height: 200px; */
+}
+iframe{
+    border: 10px solid;
+    border-color:brown;
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+}
+.sndok{
+    width: 1000px;
+    height: 500px;
+    position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* background-image:linear-gradient(to right bottom )  ; */
+    margin: 20px 150px;
+    flex-direction:column ;
+    text-align: center;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3) , 
+                -2px -4px 8px rgba(22, 116, 179, 0.932);
+    border-radius: 20% ;
+    padding: 20px 0px;
+    transform: perspective(1000px);
+    transform-style: preserve-3d;
+    
+}
+ 
+.bg{
+    position: absolute;
+    background-color: #c5cec67c;
+    width: 1000px;
+    height: 535px;
+    opacity: 0.2;
+    border-radius: 20%;
+}
+
+ .sora{
+      width: 800px;
+      height: 300px;
+      margin: 30px 0px;
+      position:  relative;
+      z-index: 10;
+      border-radius: 20%;
+      transform: translateZ(70px); 
+      /* for 3d show */
+ }
